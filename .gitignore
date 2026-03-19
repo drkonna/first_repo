@@ -1,0 +1,16 @@
+# Local environment overrides – never commit real secrets
+.env
+
+# .NET build output
+api/bin/
+api/obj/
+
+# Node / Vue build output
+frontend/node_modules/
+frontend/dist/
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
